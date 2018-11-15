@@ -1,0 +1,161 @@
+body{background: grey
+}
+
+.color{ color:white;
+		font-family: 'Cinzel', serif;
+		font-size: 25px;
+		font-style: bold;
+}
+
+.disco{ color:white;
+		font-family: 'Cinzel', serif;
+		font-size: 16px;
+		font-style: italic;
+}
+
+.titulo{color:white;
+		font-family: 'Cinzel', serif; 
+		font-size: 100px;
+		font-style: bold; 
+		margin-bottom: 5px; 
+		padding-bottom: 2px;
+}
+
+ul.menu{width: calc(80% - 30px); 
+		margin: 5px; 
+		padding: 10px; 
+		float: left;
+}
+
+ul.menu li a{   color:white;
+				text-decoration:none;  
+}
+
+ul.menu li{ display: inline-block; 
+			margin: 5px; padding: 5px;
+}
+
+#logos{ font-size: 30px;
+		width: calc(20% - 30px); 
+		float: right; 
+}
+
+.logo{  color: white; 
+		background-color: grey; 
+		margin: 5px; 
+		padding: 10px;
+}
+
+#VIDEO{ text-align: center; 
+		clear: both;
+}
+
+#integrantes{text-align: center
+}
+
+#dos{   width: 100% ; 
+		display: block;
+}
+
+.img{   width: 250px; 
+		height: 250px; 
+		border-radius: 125px; 
+		display: block; 
+		margin: auto; 
+		transition: ease all 0.3s;
+}
+
+#taylor{background-image: url(rt.png); 
+		background-repeat: no-repeat; 
+		background-position: center; 
+		background-size: cover;
+}
+
+#taylor:hover{  background-image: url(rt2.jpg); 
+				transform: scale(1.1); 
+				box-shadow: 0px 0px 10px 10px white;
+}
+
+#fm{background-image: url(fm.jpg); 
+	background-repeat: no-repeat; 
+	background-position: center; 
+	background-size: cover;
+}
+
+#fm:hover{  background-image: url(fm2.jpg); 
+			transform: scale(1.1); 
+			box-shadow: 0px 0px 10px 10px white;
+}
+
+#jd{background-image: url(jd.jpg); 
+	background-repeat: no-repeat; 
+	background-position: center; 
+	background-size: cover;
+}
+
+#jd:hover{  background-image: url(jd2.jpg); 
+			transform: scale(1.1); 
+			box-shadow: 0px 0px 10px 10px white;
+}
+
+#bm{background-image: url(bm.jpg); 
+	background-repeat: no-repeat; 
+	background-position: center; 
+	background-size: cover;
+}
+
+#bm:hover{background-image: url(bm2.jpg); 
+		transform: scale(1.1); 
+		box-shadow: 0px 0px 10px 10px white;
+}
+
+.queen{width: calc(25% - 30px) ; 
+	margin:5px; padding: 10px; 
+	float: left;
+}
+
+.inte{position: relative;
+}
+
+#lista-int{ position: absolute; 
+			display: none;
+}
+
+.inte:hover #lista-int{ display: block; 
+						background-color: black; 
+						color: white; 
+						margin: 0; 
+						padding-left: 0;
+}
+
+#discografia{text-align: center;
+			clear: both; 
+			display: block; 
+			width: 100%;
+}
+
+#discografia table{margin: 0 auto;
+}
+
+#historia{text-align: center;
+}
+
+.int{text-align: center; 
+	color: white;
+	font-family:'Cinzel', serif; 
+	font-size: 25px; 
+	font-style: bold;
+}
+
+.text{text-align:center;
+	color: white;
+	font-family:'Cinzel', serif;
+	font-size: 20px;
+	font-style: normal;
+}
+
+.foto{width: 200px; 
+	height: 200px;
+}
+
+
