@@ -1,24 +1,32 @@
-body{background: grey
+html {
+		width: 100%;
+		margin: auto;
 }
+
+body{background: grey;
+	display: block;
+	width: 100%;
+	margin: auto;
+
+}
+
 
 .color{ color:white;
 		font-family: 'Cinzel', serif;
-		font-size: 25px;
-		font-style: bold;
-}
+		font-style: 400;
+		display: block;
+		text-align: center;
 
-.disco{ color:white;
-		font-family: 'Cinzel', serif;
-		font-size: 16px;
-		font-style: italic;
+
 }
 
 .titulo{color:white;
 		font-family: 'Cinzel', serif; 
 		font-size: 100px;
-		font-style: bold; 
+		font-style: 700; 
 		margin-bottom: 5px; 
 		padding-bottom: 2px;
+		margin-top: 10px; 
 }
 
 ul.menu{width: calc(80% - 30px); 
@@ -55,6 +63,7 @@ ul.menu li{ display: inline-block;
 
 #dos{   width: 100% ; 
 		display: block;
+		overflow: auto;
 }
 
 .img{   width: 250px; 
@@ -109,9 +118,9 @@ ul.menu li{ display: inline-block;
 		box-shadow: 0px 0px 10px 10px white;
 }
 
-.queen{width: calc(25% - 30px) ; 
-	margin:5px; padding: 10px; 
-	float: left;
+.queen{	width: calc(25% - 30px) ; 
+		margin:5px; padding: 10px; 
+		float: left;
 }
 
 .inte{position: relative;
@@ -128,14 +137,23 @@ ul.menu li{ display: inline-block;
 						padding-left: 0;
 }
 
-#discografia{text-align: center;
-			clear: both; 
-			display: block; 
-			width: 100%;
+#discografia-flex{	display: flex;
+					flex-direction: row;
+					justify-content: center;
+					flex-wrap: wrap;
 }
 
-#discografia table{margin: 0 auto;
+.item-flex{ width: calc(25% - 20px);
+			justify-content: center;
+			padding: 10px;
+
+
 }
+
+.cds{  width: 100%;
+
+}
+
 
 #historia{text-align: center;
 }
@@ -144,18 +162,85 @@ ul.menu li{ display: inline-block;
 	color: white;
 	font-family:'Cinzel', serif; 
 	font-size: 25px; 
-	font-style: bold;
+	font-style: 400;
 }
 
 .text{text-align:center;
 	color: white;
-	font-family:'Cinzel', serif;
+	font-family: Cormorant  Garamond, serif;
 	font-size: 20px;
-	font-style: normal;
+	font-style: 400;
 }
 
 .foto{width: 200px; 
 	height: 200px;
 }
+
+.form-text{ text-align:left;
+			font-family: Cormorant  Garamond, serif;
+			font-size: 25px;
+			font-style: 400;
+			color: white;
+}
+
+footer{ background-color: white;
+		color: grey;
+		font-size: 25px;
+		font-family: Cormorant  Garamond, serif;
+		font-style: 400;
+
+}
+
+@media only screen and (max-width: 420px) { 
+	
+	.queen{
+			width: calc(100% - 30px)
+
+	}
+
+	.item-flex{
+				width: calc(100% - 20px)
+
+
+	}
+
+	.text{
+			font-size: 40px;
+	}
+
+	.color{
+			font-size: 30px
+	}
+}
+
+@media only screen and (min-width: 420px) and (max-width: 1025px){
+
+	ul.menu{
+			width: calc(60% - 30px)
+	}
+
+	#logos{
+			width: calc(40% - 30px);
+			text-align: right;
+	}
+
+	.queen{
+			width: calc(50% - 30px);
+	}
+
+	.int{
+			padding top: 10px;
+			padding-left: 25px;
+			padding-right: 25px;
+
+
+	}
+
+	.item-flex{
+				width: calc(50% - 20px);
+	}
+}
+
+
 
 
