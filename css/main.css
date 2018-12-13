@@ -1,0 +1,20 @@
+.btn--spotify {
+  color: #1db954; }
+
+.btn--facebook {
+  color: #3b5998; }
+
+.btn--instagram {
+  color: #d62976; }
+
+.btn--primary {
+  color: #fff; }
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: -1;
+  position: absolute; }

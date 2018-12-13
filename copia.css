@@ -1,0 +1,377 @@
+html{
+	width: 100%
+}
+
+body{
+	background-color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+	z-index: -1;
+	display: block;
+	line-height: normal;
+}
+
+a{
+	color: black;
+	text-decoration: none !important;
+}
+
+a:hover{
+	text-decoration: none ;
+	color: black;
+}
+
+nav{
+	background-color: black;
+	justify-content: center;
+	text-decoration: none;
+	margin-top: 10px;
+	padding-top: 3px;
+	color: white;
+	z-index: 99;
+}
+
+
+ul li a{
+	color: white ¡important;
+	padding-bottom: 5px;
+	padding-top: 3px;
+}
+
+h1{
+	color: black;
+	text-align:center;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-top: 40px;
+}
+
+h2{
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: center;
+	color: black;
+}
+
+h6{
+	text-align: center;
+}
+
+p{
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: black;
+	text-align:center;
+}
+
+label{
+	font-size: 20px;
+}
+
+form{
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+footer{
+	background-color: black;
+	color: white;
+	height: 100px;
+	width: 100%;
+    position: relative;
+    top: -2px;
+}
+
+.title-queen{
+	color: black;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 100px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	text-decoration: none;
+
+}
+
+.boton-menu{
+	color: white;
+	border:white;
+	border-radius: 20px;
+}
+
+.menu{
+	background-color: black !important;
+	color: white !important;
+	z-index: 99;
+}
+
+#video{
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+
+
+#lista-banda{
+	background-color: black;
+	display: none;
+	position: absolute;
+	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+	background-color: black; 
+	color: white; 
+	margin: 0; 
+	padding-left: 0;
+	z-index: 1000;
+	position: absolute;
+	list-style: none;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+}
+
+.hover:hover #lista-banda{
+	display: block; 
+}
+
+ul #lista-banda li a{
+	padding-bottom: 20px;
+	display: block;
+}
+
+#historia{
+	padding-top: 40px;
+}
+
+.biografia p{
+	font-weight: 300;
+	text-align: left;
+	line-height: 55px;
+	font-size: 30px;
+	padding-top: 90px;
+}
+
+.biografia-left{
+	padding-top: 10px;
+	padding-left: 30px;
+}
+
+.biografia-right{
+	padding-top: 20px;
+	padding-right: 30px;
+}
+.imagen-artista{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.imagen-biografia img{
+	padding-top: 100px;
+	margin-right: 0;
+}
+
+.imagenes-slider{
+	height: 500px;
+	margin: 10px;
+}
+
+.imagenes-cds{
+	width: 400px;
+	height: 400px;
+
+}
+
+.imagenes-cd{   width: 250px; 
+				height: 250px; 
+				border-radius: 125px; 
+				display: block; 
+				margin: auto; 
+				transition: ease all 0.3s;
+}
+
+#discografia{
+	width: 100%;
+	overflow: auto;
+	padding-top: 45px;
+}
+
+#disco{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#discografia article{
+	width: calc(25% - 20px);
+	float: left;
+	margin: 10px;
+}
+
+#queen{ background-image: url(queen.jpg); 
+		background-repeat: no-repeat; 
+		background-position: center; 
+		background-size: cover;
+}
+
+#queen:hover{   background-image: url(queen.jpg); 
+				transform: scale(1.1); 
+				box-shadow: 0px 0px 10px 10px black;
+}
+
+#queen2{background-image: url(queen2.jpg); 
+		background-repeat: no-repeat; 
+		background-position: center; 
+		background-size: cover;
+}
+
+#queen2:hover{  background-image: url(queen2.jpg); 
+				transform: scale(1.1); 
+				box-shadow: 0px 0px 10px 10px black;
+}
+
+#sheer{ background-image: url(sheer.jpg); 
+		background-repeat: no-repeat; 
+		background-position: center; 
+		background-size: cover;
+}
+
+#sheer:hover{   background-image: url(sheer.jpg); 
+				transform: scale(1.1); 
+			 	box-shadow: 0px 0px 10px 10px black;
+}
+
+#night{ background-image: url(night.jpg); 
+		background-repeat: no-repeat; 
+		background-position: center; 
+		background-size: cover;
+}
+
+#night:hover{	background-image: url(night.jpg); 
+				transform: scale(1.1); 
+				box-shadow: 0px 0px 10px 10px black;
+}
+
+.contact{
+	padding-top: 15px;
+}
+
+#contacto{
+	margin-top: 10px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	background-image: linear-gradient(white, black);
+	padding: 30px 0;
+}
+
+.tamaño-boton{
+	font-size: 20px;
+	padding: 6px 40px;
+    font-size: 22px;
+    background: white;
+    border-color: white;
+    color: black;
+}
+
+.form-color{
+	color: white;
+}
+
+#redes{
+	margin: 10px;
+	padding-left: 15px;
+	font-size: 30px;
+	text-align: right;
+	margin-top: 0px;
+
+}
+
+.footer p{
+	color: white;
+	text-decoration-color: white;
+}
+
+.footer a{
+	color: white;
+	text-decoration-color:white;
+	margin-bottom: 40px;
+}
+
+/*
+Arreglos de Bootstrap
+*/
+
+.container-fluid{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+/*
+
+Error 404
+
+*/
+
+.fondo-error{
+	background-image: linear-gradient(white,black);
+	height: 100%;
+}
+
+@media only screen and (max-width: 420px) {
+
+	#discografia article{
+		width: 100%;
+	}
+
+	p{
+		font-size: 30px;
+	}
+
+	footer div p{
+		font-size: 15px;
+	}
+
+	div label{
+		font-size: 20px;
+	}
+
+	/*
+	Integrantes 
+	*/
+
+	.biografia-right{
+		padding-right: 15px;
+		padding-left: 30px;
+	}
+
+	.imagen-biografia img{
+		padding-top: 50px;
+		padding-right: 0px;
+	}
+
+}
+
+@media only screen and (min-width: 420px) and (max-width: 1025px){
+
+	#discografia article{
+		width: calc(50% - 20px);
+	}
+
+	p{
+		font-size: 30px;
+	}
+
+	footer div p{
+
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

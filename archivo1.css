@@ -3,31 +3,62 @@ html {
 		margin: auto;
 }
 
-body{background: grey;
+body{background: white;
 	display: block;
 	width: 100%;
-	margin: auto;
+	z-index: -1;
 
 }
 
+nav{display: flex;
+
+}
+
+nav button{
+	color: white;
+}
+
+a{  color: white;
+	text-decoration:none;
+}
+
+p{
+	color: black
+	font-family: 'Roboto Condensed', sans-serif;;
+}
+
+a:hover{color: white;
+		text-decoration: none;
+}
+
+.bg{
+	background-color: black;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
+.fotoslider{height: 500px
+
+}
 
 .color{ color:white;
 		font-family: 'Cinzel', serif;
 		font-style: 400;
 		display: block;
 		text-align: center;
+	}
 
-
-}
-
-.titulo{color:white;
-		font-family: 'Cinzel', serif; 
+.titulo{color:black;
+		font-family: 'Cormorant Garamond', serif; 
 		font-size: 100px;
-		font-style: 700; 
-		margin-bottom: 5px; 
-		padding-bottom: 2px;
-		margin-top: 10px; 
+		font-style: 400; 
+		margin-bottom: 10px; 
+		padding-bottom: 10px;
+		margin-top: 100px;
+		text-decoration:none;
+
 }
+
 
 ul.menu{width: calc(80% - 30px); 
 		margin: 5px; 
@@ -37,6 +68,7 @@ ul.menu{width: calc(80% - 30px);
 
 ul.menu li a{   color:white;
 				text-decoration:none;  
+				background-color: black;
 }
 
 ul.menu li{ display: inline-block; 
@@ -48,9 +80,9 @@ ul.menu li{ display: inline-block;
 		float: right; 
 }
 
-.logo{  color: white; 
+.logo{  
 		background-color: grey; 
-		margin: 5px; 
+		margin: auto; 
 		padding: 10px;
 }
 
@@ -58,7 +90,9 @@ ul.menu li{ display: inline-block;
 		clear: both;
 }
 
-#integrantes{text-align: center
+#integrantes{	text-align: center;
+				margin-top: 10px;
+				padding-top: 5px;
 }
 
 #dos{   width: 100% ; 
@@ -121,6 +155,7 @@ ul.menu li{ display: inline-block;
 .queen{	width: calc(25% - 30px) ; 
 		margin:5px; padding: 10px; 
 		float: left;
+		color: white;
 }
 
 .inte{position: relative;
@@ -135,6 +170,12 @@ ul.menu li{ display: inline-block;
 						color: white; 
 						margin: 0; 
 						padding-left: 0;
+						z-index: 99;
+}
+
+#discogrfia{margin-top: 10px;
+			padding-top: 5px;
+
 }
 
 #discografia-flex{	display: flex;
@@ -149,11 +190,6 @@ ul.menu li{ display: inline-block;
 
 
 }
-
-.cds{  width: 100%;
-
-}
-
 
 #historia{text-align: center;
 }
@@ -181,6 +217,10 @@ ul.menu li{ display: inline-block;
 			font-size: 25px;
 			font-style: 400;
 			color: white;
+}
+
+.col-{text-align: right;
+
 }
 
 footer{ background-color: white;
@@ -240,6 +280,42 @@ footer{ background-color: white;
 				width: calc(50% - 20px);
 	}
 }
+
+
+
+
+
+
+
+
+
+
+        <nav class="container-fluid">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="#video">Video</a>
+                </li>
+                <li class="nav-item hover">
+                    <a class="nav-link" href="#">Banda</a>
+                        <ul id="lista-banda">
+                            <li><a href="freddie.html"> Freddie Mercury</a></li>
+                            <li><a href="brian.html"> Brian May</a></li>
+                            <li><a href="john.html"> John Deacon</a></li>
+                            <li><a href="roger.html"> Roger Taylor</a></li>
+                        </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Historia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#disco">Discografía</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+
 
 
 

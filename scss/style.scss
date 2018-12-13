@@ -1,0 +1,30 @@
+$colors: (
+ spotify: #1db954,
+ facebook: #3b5998,
+ instagram: #d62976,
+ primary:#fff
+);
+
+$primary:#fff;
+
+@each $name-color, $bgcolor in $colors {
+   .btn--#{$name-color} {
+       color: $bgcolor;
+   }
+}
+
+@function color($color-name){
+	@return map-get($colors, $color-name)
+}
+
+
+body{
+	font-family:'Roboto Condensed', sans-serif;
+	margin:0;
+	background-color: color($primary);
+	width:100%;
+	height:100%;
+	display:block;
+	z-index:-1;
+	position:absolute;
+}
